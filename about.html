@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About-Islamul Tacnical Institute</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="image/Rifat.png">
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+     <!--Navber-->
+    <section class=" sub-header">
+        <nav>
+            <a href="#"><img src="image/logo3.png"></a>
+            <div class="nav-link" id="navLinks">
+                <i class="fa-solid fa-xmark fa" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="#">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="#">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars fa" onclick="showMenu()"></i>
+        </nav>
+
+
+        <h1>Abous Us</h1>
+    </section>
+
+
+    <!--Contant-->
+    <section class="about-us">
+        <div class="row">
+            <div class="about-col">
+                <h1>We are the world's largest Collage</h1>
+                <p>The world's biggest collage is a remarkable display of creativity and collaboration. One of the largest photo collages, created by Walmart in Virginia, USA, covered 2,264 square meters and featured 45,000 images submitted by the community. It was not only a visual spectacle </p>
+                <a href="#" class="hero-btn red">EXPLORE NOW</a>
+            </div>
+            <div class="about-col">
+                <img src="image/about.jpg">
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+     <!--Footer-->
+     <section class="footer">
+        <h4>ABOUT US</h4>
+        <p>we are committed to delivering quality education that empowers students to achieve their goals and make  a positive <br> impact in the world. With a focus on academic excellence, skill development, and holistic growth</p>
+        <div class="icons">
+            <i class="fa-brands fa-facebook-f fa"></i>
+            <i class="fa-brands fa-twitter fa"></i>
+            <i class="fa-brands fa-instagram fa"></i>
+            <i class="fa-brands fa-linkedin-in fa"></i>
+            <i class="fa-brands fa-github fa"></i>
+        </div>
+        <p>Made With <i class="fa-regular fa-heart fo"></i> by Rifat</p>
+    </section>
+
+
+
+
+     <!--Java Script for toggle Menu-->
+     <script>
+        let navLinks = document.getElementById("navLinks");
+
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+
+
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>

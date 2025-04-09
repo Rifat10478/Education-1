@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog-Islamul Tacnical Institute</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="image/Rifat.png">
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+     <!--Navber-->
+    <section class=" sub-header">
+        <nav>
+            <a href="#"><img src="image/logo3.png"></a>
+            <div class="nav-link" id="navLinks">
+                <i class="fa-solid fa-xmark fa" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="#">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars fa" onclick="showMenu()"></i>
+        </nav>
+
+
+        <h1>Our Certificate & Online Programs For 2025</h1>
+    </section>
+
+
+    <!--blog page content -->
+    <section class="blog-contant">
+        <div class="row">
+            <div class="blog-left">
+                <img src="image/certificate.jpg">
+                <h2>Our Certificate & Online Programs For 2023</h2>
+                <p>Our Certificate and Online Programs are designed for learners who seek flexibility, practical skills, and career growth—without compromising on quality. Whether you're a working professional, student, or someone looking to upskill, our online and short-term courses offer convenient learning from anywhere, anytime. Each program is industry-relevant, guided by expert instructors, and comes with certification upon completion.
+                </p>
+                <br>
+                <p>we understand the importance of flexible, skill-focused learning in today’s fast-paced world. Our Certificate and Online Programs are specially designed to help students, working professionals, and career changers gain practical knowledge and recognized certifications—without the need to attend full-time classes.</p>
+                <br>
+                <p>These programs cover a wide range of in-demand subjects, including Web Development, Graphic Design, Digital Marketing, Python Programming, Data Analytics, and more. Whether you’re looking to start a new career, boost your resume, or learn a new skill, our courses are structured to provide real-world knowledge through hands-on learning, projects, and expert mentorship.</p>
+                <br>
+                <p>Delivered through live online sessions and recorded classes, our programs allow you to learn anytime, anywhere. With flexible schedules, downloadable materials, and interactive support, we make online learning accessible and effective. Each course is led by experienced instructors and includes regular assessments to track progress. On successful completion, students receive a verified certificate that adds value to their professional profile.</p>
+                <!--Comment box-->
+                <div class="comment-box">
+                    <h3>Leave a comment</h3>
+                    <form class="comment-form">
+                        <input type="text" placeholder="Enter Name">
+                        <input type="text" placeholder="Enter Email">
+                        <textarea rows="5" placeholder="Your comment"></textarea>
+                        <button type="submit" class="hero-btn red">POST COMMENT</button>
+                    </form>
+                </div>
+            </div>
+            <div class="blog-right">
+                <h3>Pst Categories</h3>
+                <div>
+                    <span>Business Analytics</span>
+                    <span>21</span>
+                </div>
+                <div>
+                    <span>Data Science</span>
+                    <span>28</span>
+                </div>
+                <div>
+                    <span>Machine Learning</span>
+                    <span>15</span>
+                </div>
+                <div>
+                    <span>Computer Science</span>
+                    <span>34</span>
+                </div>
+                <div>
+                    <span>Auto CAD</span>
+                    <span>42</span>
+                </div>
+                <div>
+                    <span>Journalism</span>
+                    <span>22</span>
+                </div>
+                <div>
+                    <span>Commerce</span>
+                    <span>30</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+     <!--Footer-->
+     <section class="footer">
+        <h4>ABOUT US</h4>
+        <p>we are committed to delivering quality education that empowers students to achieve their goals and make  a positive <br> impact in the world. With a focus on academic excellence, skill development, and holistic growth</p>
+        <div class="icons">
+            <i class="fa-brands fa-facebook-f fa"></i>
+            <i class="fa-brands fa-twitter fa"></i>
+            <i class="fa-brands fa-instagram fa"></i>
+            <i class="fa-brands fa-linkedin-in fa"></i>
+            <i class="fa-brands fa-github fa"></i>
+        </div>
+        <p>Made With <i class="fa-regular fa-heart fo"></i> by Rifat</p>
+    </section>
+
+
+
+
+     <!--Java Script for toggle Menu-->
+     <script>
+        let navLinks = document.getElementById("navLinks");
+
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+
+
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us-Islamul Tacnical Institute</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="image/Rifat.png">
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+     <!--Navber-->
+    <section class=" sub-header">
+        <nav>
+            <a href="#"><img src="image/logo3.png"></a>
+            <div class="nav-link" id="navLinks">
+                <i class="fa-solid fa-xmark fa" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="#">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars fa" onclick="showMenu()"></i>
+        </nav>
+
+
+        <h1>Contact Us</h1>
+    </section>
+
+
+    <!--Contant-->
+    <section class="location">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3039.205048190312!2d89.3517097744631!3d24.905676343448455!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39fcff4ce135690b%3A0x68adf1b6aad8dace!2sTMSS%20Textile%20Engineering%20Institute%20(TTEI)%2CBogura!5e1!3m2!1sen!2sbd!4v1744186088906!5m2!1sen!2sbd" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+    
+
+    <section class="contact-us">
+        <div class="row">
+            <div class="contact-col">
+                <div>
+                    <i class="fa-solid fa-house fa"></i>
+                    <span>
+                        <h5>TMSS Textile Engineering Institute </h5>
+                        <p>Rangpur Road, Bogra</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa-solid fa-phone fa"></i>
+                    <span>
+                        <h5>+8801921212123</h5>
+                        <p>Saturday to Thursday , 9AM to 5PM</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa-solid fa-envelope fa"></i>
+                    <span>
+                        <h5>tmss012@gmail.com</h5>
+                        <p>Email us your query</p>
+                    </span>
+                </div>
+            </div>
+            <div class="contact-col">
+                <form action="">
+                    <input type="text" placeholder="Enter Your Name" required>
+                    <input type="email" placeholder="Enter Email Address" required>
+                    <input type="text" placeholder="Enter Your Subject" required>
+                    <textarea rows="8" placeholder="Message" required></textarea>
+                    <button type="submit" class="hero-btn red">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+     <!--Footer-->
+     <section class="footer">
+        <h4>ABOUT US</h4>
+        <p>we are committed to delivering quality education that empowers students to achieve their goals and make  a positive <br> impact in the world. With a focus on academic excellence, skill development, and holistic growth</p>
+        <div class="icons">
+            <i class="fa-brands fa-facebook-f fa"></i>
+            <i class="fa-brands fa-twitter fa"></i>
+            <i class="fa-brands fa-instagram fa"></i>
+            <i class="fa-brands fa-linkedin-in fa"></i>
+            <i class="fa-brands fa-github fa"></i>
+        </div>
+        <p>Made With <i class="fa-regular fa-heart fo"></i> by Rifat</p>
+    </section>
+
+
+
+
+     <!--Java Script for toggle Menu-->
+     <script>
+        let navLinks = document.getElementById("navLinks");
+
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+
+
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>
